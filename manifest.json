@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "18+ block-web-extension",
+  "version": "1.0",
+  "description": "Blocks adult websites and keywords.",
+  "permissions": [
+    "tabs",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
