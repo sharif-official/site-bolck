@@ -218,21 +218,6 @@ It may:
 
 ---
 
-## Future Improvements
-
-Possible upgrades:
-
-- AI-based NSFW image detection
-- Password-protected settings
-- Parent control dashboard
-- SafeSearch enforcement
-- YouTube Restricted Mode
-- Domain blacklist updates from a server
-- Custom whitelist and blacklist
-- Usage reports and logs
-
----
-
 ## Privacy
 
 This extension:
